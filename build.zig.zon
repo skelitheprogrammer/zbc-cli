@@ -1,0 +1,23 @@
+.{
+    .name = .zig_calculator_cli,
+
+    .version = "0.0.0",
+
+    .fingerprint = 0x878396164b84b281, // Changing this has security and trust implications.
+
+    .minimum_zig_version = "0.15.0-dev.37+423907c27",
+    .dependencies = .{
+        .zbc = .{
+            .url = "git+https://github.com/skelitheprogrammer/zbc-lib#d746e7c2e0faee1007838a71ad8730190cef14aa",
+            .hash = "zbc-0.0.0-eF4pvYgmAABBbC4gENjkMkp6-1_GrXHEg1B9zP1zuAQj",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
