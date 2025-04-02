@@ -8,8 +8,8 @@
     .minimum_zig_version = "0.15.0-dev.37+423907c27",
     .dependencies = .{
         .zbc = .{
-            .url = "git+https://github.com/skelitheprogrammer/zbc-lib#d746e7c2e0faee1007838a71ad8730190cef14aa",
-            .hash = "zbc-0.0.0-eF4pvYgmAABBbC4gENjkMkp6-1_GrXHEg1B9zP1zuAQj",
+            .url = "git+https://github.com/skelitheprogrammer/zbc-lib#7cc341d53f327408b57c8881391d6bfd1e0ecb74",
+            .hash = "zbc-0.0.1-eF4pvTAmAAAr2J-yd9oTxW8vPcMMNOa_2VwQyCHHa2ky",
         },
     },
     .paths = .{
